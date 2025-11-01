@@ -2,7 +2,48 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Title>Sankhya.Mudra.Rupantraan</Title>
+    <Authors>Yash S</Authors>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>mudra.png</PackageIcon>
+    <Copyright>Copyright © 2025 Yash Saini</Copyright>
+    <Description>A lightweight .NET Framework library for real-time currency conversion and exchange rate fetching, leveraging the Frankfurter.dev API. "Sankhya.Mudra.Rupantraan" translates from Sanskrit to "Numerical Currency Transformation," embodying its core purpose. This package provides a simple and efficient way to integrate currency conversion capabilities into your .NET Framework applications, including VSTO Add-ins for Excel.</Description>
+    <PackageTags>currency;conversion;exchange;rates;frankfurter;vsto;excel;finance;money;rupantraan;inr;convert;api;dollar;usd</PackageTags>
+    <PackageReleaseNotes>Here are the metadata fields for your package delivery, ready to copy and paste.
+
+Description
+A lightweight .NET Framework library for real-time currency conversion and exchange rate fetching, leveraging the Frankfurter.dev API. "Sankhya.Mudra.Rupantraan" translates from Sanskrit to "Numerical Currency Transformation," embodying its core purpose. This package provides a simple and efficient way to integrate currency conversion capabilities into your .NET Framework applications, including VSTO Add-ins for Excel.
+
+Copyright
+Copyright © 2025 Yash Saini
+
+Tags
+currency;conversion;exchange;rates;frankfurter;vsto;excel;finance;money;rupantraan
+
+Release Notes
+Version 1.0.0: Initial release of the Sankhya.Mudra.Rupantraan library.
+
+Includes CurrencyService for fetching all available currencies.
+
+Provides ConvertCurrencyAsync method to convert amounts between any two supported currencies.
+
+Uses the free Frankfurter.dev API (v1) with no API key required.
+
+Includes fallback for GetCurrenciesAsync in case of API failure.</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/yash-saini/Sankhya.Mudra.Rupantraan</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/yash-saini/Sankhya.Mudra.Rupantraan</PackageProjectUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="C:\Users\yash0\Downloads\mudra.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
